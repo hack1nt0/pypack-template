@@ -1,0 +1,14 @@
+{
+    "files.associations": {
+        "complex": "cpp",
+        "vector": "cpp",
+        "iostream": "cpp",
+        "string": "cpp"
+    },
+    "python.autoComplete.extraPaths": [
+    " ${workspaceFolder}/src/pypack"
+    ],
+    "python.analysis.extraPaths": [
+        " ${workspaceFolder}/src/pypack"
+    ]
+}
