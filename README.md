@@ -7,6 +7,8 @@
 python -m pip install pip-tools
 pip-compile --upgrade # produces and update requirements.txt
 pip-sync
+
+uvicorn src.web:app --reload # run as web app
 ```
 
 ## Used as a package
